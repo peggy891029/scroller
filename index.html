@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+		<link rel="stylesheet" type="text/css" href="css/scrollpath.css" /> 
+		<link href="http://fonts.googleapis.com/css?family=Terminal+Dosis&subset=latin" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/lib/prefixfree.min.js"></script>
+		<style>
+			body {
+            height:3000px;
+         }
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/001.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(3px);
+         }
+      </style>
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<meta name="description" content="The plugin that lets you define custom scroll paths" /> 
+		<title>Scroll</title>
+	</head>
+	<body>
+		<div id="bg-block">
+      	</div>
+		<nav>
+			<ul>
+				<li><a href="#start">1</a></li>
+				<li><a href="#description">2</a></li>
+				<li><a href="#syntax">3</a></li>
+				<li><a href="#scrollbar">4</a></li>
+				<li><a href="#rotations">5</a></li>
+				<li><a href="#rotations-rotated">6</a></li>
+				<li><a href="#source">7</a></li>
+				<li><a href="#follow">8</a></li>
+			</ul>
+		</nav>
+		<div class="settings">
+			<a href="" class="show-path">Show Path</a>
+		</div>
+		<div class="wrapper">
+			<div class="demo">
+				<img src="images/logo.png" style="width: 500px; opacity: 1; -webkit-filter: blur(0px);">
+				
+			</div>
+			
+			<div class="description">
+				<span class="big"><img src="images/1.jpg" style="height:500px;"></span>
+			</div>
+
+			<div class="syntax">
+				<span class="big"><img src="images/2.jpg" style="height:500px;"></span>
+			</div>
+
+			<div class="scrollbar">
+				<span class="big"><img src="images/3.jpg" style="height:500px;"></span>
+			</div>
+
+			<div class="scroll">
+				<span class="big"><img src="images/6.jpg" style="height:500px;"></span>
+			</div>
+
+			<div class="rotations">
+				
+				<span class="upside-down big"><img src="images/7.jpg" style="height:500px;"></span>
+			</div>
+
+			<div class="source">
+				<span class="big"><img src="images/9.jpg" style="height:500px;"><span>
+			</div>
+
+			<div class="follow">
+				<span class="tweet"><img src="images/final.png" style="width: 1000px; opacity: 1; -webkit-filter: blur(0px);"></span>
+			</div>
+			
+
+		</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollpath.js"></script>
+	<script type="text/javascript" src="js/demo.js"></script>
+	</body>
+</html>
